@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+        <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnFlurry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="clickResponse"
+                android:text="FLURRY ANALYTICS"
+                android:layout_centerInParent="true"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerVertical="true"
+                android:onClick="clickResponse"
+                android:id="@+id/btnCrash"
+                android:text="Force Crash!"
+                android:layout_below="@+id/btnFlurry"
+                android:layout_centerInParent="true"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerVertical="true"
+                android:onClick="clickResponse"
+                android:id="@+id/btnexoplayer"
+                android:text="ExoPlayer"
+                android:layout_below="@+id/btnCrash"
+                android:layout_centerInParent="true"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerVertical="true"
+                android:onClick="clickResponse"
+                android:id="@+id/btnWeather"
+                android:text="Go To Weather Info"
+                android:layout_below="@+id/btnexoplayer"
+                android:layout_centerInParent="true"/>
+        </LinearLayout>
+
+
+    </FrameLayout>
+</LinearLayout>
