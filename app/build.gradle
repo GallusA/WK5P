@@ -90,4 +90,6 @@ dependencies {
     //Exoplayer
     compile 'com.google.android.exoplayer:exoplayer:r2.4.0'
 
+    compile 'com.google.android.gms:play-services-location:11.0.4'
+
 }

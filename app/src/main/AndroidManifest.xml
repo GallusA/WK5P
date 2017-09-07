@@ -12,18 +12,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".HomeBaseActivity" android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ExoplayerActivity"></activity>
+        <activity android:name=".View.MainActivity.MainActivity"></activity>
+        <activity android:name=".View.SettingsActivity.SettingsActivity"></activity>
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="970112e8d0a81a5d7011b33acf104023d2db056d" />
+            android:value="8907f2fd58e5279da756f53dd800a4549854a7f6"
+            />
     </application>
 
 </manifest>

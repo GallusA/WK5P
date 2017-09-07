@@ -8,4 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ToolBarStyle">ToolBarStyle</style>
+
+    <style name="Toolbar.TitleText">ToolBarTitle</style>
+
+    <style name="settingsTheme">settingsTheme</style>
+
+    <style name="Toolbar">Toolbar</style>
+
 </resources>
